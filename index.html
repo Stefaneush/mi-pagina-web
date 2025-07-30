@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi primera página web</title>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>¡Hola mundo desde la nube!</h1>
-  <p>Mi primer deploy con GitHub Pages</p>
+  <div class="container">
+    <h1 class="fade-in">¡Contactame!</h1>
+    <form action="https://formspree.io/f/manbjrdd" method="POST" class="form fade-in">
+      <input type="text" name="name" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu email" required>
+      <textarea name="message" rows="5" placeholder="Tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>Hecho con ❤️ por vos</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
+

@@ -1,1 +1,3 @@
-console.log("Página cargada correctamente");
+document.querySelector("form").addEventListener("submit", () => {
+  alert("¡Mensaje enviado! Gracias por contactarme.");
+});
